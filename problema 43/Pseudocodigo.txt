@@ -1,0 +1,15 @@
+N=Input(0)
+M=Input(1)
+K=Input(2)
+i=3
+j=1
+while(i<=N*M+2)
+	print(K*Input(i))
+	if(j==M)
+		print("/n")
+		j=1
+	else 
+		print(",")
+		j++
+	i++
+END	

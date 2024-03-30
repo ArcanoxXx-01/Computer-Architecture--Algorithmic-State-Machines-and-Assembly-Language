@@ -1,0 +1,14 @@
+Na=Input(0)
+Nb=Input(Na+1)
+if(Na!=Nb) :End ; return 0
+i=1
+while(i<=Na)
+	key=Input(i)
+	j= Na+2
+	while(j<=Na+Nb+1)
+		if(key==Input(j)): break
+		if(j==Na+Nb+1): End ; return 0
+		j++
+	i++
+End
+return 1
